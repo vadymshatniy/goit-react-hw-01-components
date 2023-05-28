@@ -1,0 +1,13 @@
+
+.profile {
+    margin: 0 auto;
+    background-color: blue;
+}
+.description {
+    width: 200px;
+    background-color: aqua;
+}
+.avatar {
+    width: 30px;
+}
+
