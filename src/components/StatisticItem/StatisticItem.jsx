@@ -8,3 +8,5 @@ export default function StatisticsItem({ title, stats }) {
         </li>
   	);
 };
+
+// повторно, у зв'язку з помилкою на githab

@@ -26,3 +26,5 @@ Statistics.propTypes = {
     title: PropTypes.string,
     stats: PropTypes.object,
 };
+
+// повторно, у зв'язку з помилкою на githab

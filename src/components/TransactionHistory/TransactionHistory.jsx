@@ -32,3 +32,5 @@ export default function TransactionHistory({ transactions }) {
 TransactionHistory.propTypes = {
     transactions: PropTypes.object,
 };
+
+// повторно, у зв'язку з помилкою на githab

@@ -24,3 +24,5 @@ FriendList.propTypes = {
     name: PropTypes.string,
     isOnline: PropTypes.bool,
 };
+
+// повторно, у зв'язку з помилкою на githab

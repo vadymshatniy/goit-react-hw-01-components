@@ -9,3 +9,5 @@ export default function FriendsListItem({ avatar, name, isOnline }) {
 </li>
   	);
 };
+
+// повторно, у зв'язку з помилкою на githab

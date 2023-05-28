@@ -7,3 +7,5 @@ export default function TransactionItem({ type, amount, currency }) {
         </tr>
   	);
 };
+
+// повторно, у зв'язку з помилкою на githab
