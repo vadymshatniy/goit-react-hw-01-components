@@ -1,9 +1,11 @@
+import friendListItemStyles from "./FriendListItem.module.css";
+
 export default function FriendsListItem({ avatar, name, isOnline }) {
-	return (
-		<li class="item">
+      return (
+            <li class={friendListItemStyles.item} >
             <span class="status">{isOnline}</span>
-            <img class="avatar" src={avatar} alt="User avatar" width="48" />
-            <p class="name">{name}</p>
+                  <img class={friendListItemStyles.avatar} src={avatar} alt="User avatar" width="48" />
+                  <p class={friendListItemStyles.name}>{name}</p>
 </li>
   	);
 };

@@ -1,8 +1,10 @@
+import PropTypes from "prop-types";
 import TransactionItem from "../TransactionItem/TransactionItem";
+import TransactionHistoryStyles from "./TransactionHistory.module.css";
 
 export default function TransactionHistory({ transactions }) {
     return (
-        <table class="transaction-history">
+        <table class={TransactionHistoryStyles.transactionHistory}>
             <thead>
                 <tr>
                     <th>Type</th>
@@ -25,4 +27,8 @@ export default function TransactionHistory({ transactions }) {
             </tbody>
         </table>
     );
+};
+
+TransactionHistory.propTypes = {
+    transactions: PropTypes.object,
 };

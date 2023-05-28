@@ -1,13 +1,13 @@
-
-import StatisticsItem from "../StatisticsItem/StatisticItem";
-
+import PropTypes from "prop-types";
+import StatisticsItem from "../StatisticItem/StatisticItem";
+import statisticsStyles from "./Statistics.module.css";
 
 export default function Statistics({ title, stats }) {
     return (
-        <section class="statistics">
-            {title && <h2 class="title">{title}</h2>}
+        <section class={statisticsStyles.statistics}>
+            {title && <h2 class={statisticsStyles.title}>{title}</h2>}
 
-            <ul class="stat-list">
+            <ul class={statisticsStyles.statList}>
                 {stats.map(({ id, label, percentage }) => {
                     return (
                         <StatisticsItem
@@ -20,4 +20,9 @@ export default function Statistics({ title, stats }) {
             </ul>
         </section>
 	);
+};
+
+Statistics.propTypes = {
+    title: PropTypes.string,
+    stats: PropTypes.object,
 };

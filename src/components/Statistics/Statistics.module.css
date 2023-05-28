@@ -1,0 +1,15 @@
+.statistics {
+    background-color: grey;
+}
+.title {
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+.statList {
+    display: flex;
+    justify-content: center;
+}

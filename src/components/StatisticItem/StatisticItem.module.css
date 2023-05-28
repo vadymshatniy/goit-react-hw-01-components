@@ -1,0 +1,17 @@
+.item {
+    height: 60px;
+    width: 90px;
+    display: block;
+    background-color: darkblue;
+    margin-bottom: 15px;
+}
+.label {
+display: block;
+color: white;
+text-align: center;
+}
+.percentage {
+color: white;
+font-size: 28px;
+text-align: right;
+}
