@@ -4,10 +4,10 @@ import statisticsStyles from "./Statistics.module.css";
 
 export default function Statistics({ title, stats }) {
     return (
-        <section class={statisticsStyles.statistics}>
-            {title && <h2 class={statisticsStyles.title}>{title}</h2>}
+        <section className={statisticsStyles.statistics}>
+            {title && <h2 className={statisticsStyles.title}>{title}</h2>}
 
-            <ul class={statisticsStyles.statList}>
+            <ul className={statisticsStyles.statList}>
                 {stats.map(({ id, label, percentage }) => {
                     return (
                         <StatisticsItem
@@ -27,4 +27,3 @@ Statistics.propTypes = {
     stats: PropTypes.object,
 };
 
-// повторно, у зв'язку з помилкою на githab

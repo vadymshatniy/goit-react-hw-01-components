@@ -1,5 +1,6 @@
 .item {
     display: block;
+    display: flex;
     width: 300px;
     height: 100px;
     padding-left: 20px;
@@ -13,8 +14,25 @@
             0 1px 6px 0 rgba(46, 47, 66, 0.08),
             0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+.statusOn {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: green;
+}
+.statusOff {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+}
+.avatar {
+    width: 48px;
+    height: 48px;
+}
 .name {
     display: inline;
 }
 
-/* повторно, у зв'язку з помилкою на githab */

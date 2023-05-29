@@ -41,4 +41,3 @@ Profile.propTypes = {
     stats: PropTypes.object,
 };
 
-// повторно, у зв'язку з помилкою на githab

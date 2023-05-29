@@ -8,4 +8,3 @@ export default function TransactionItem({ type, amount, currency }) {
   	);
 };
 
-// повторно, у зв'язку з помилкою на githab

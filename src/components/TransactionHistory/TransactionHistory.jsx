@@ -4,7 +4,7 @@ import TransactionHistoryStyles from "./TransactionHistory.module.css";
 
 export default function TransactionHistory({ transactions }) {
     return (
-        <table class={TransactionHistoryStyles.transactionHistory}>
+        <table className={TransactionHistoryStyles.transactionHistory}>
             <thead>
                 <tr>
                     <th>Type</th>
@@ -33,4 +33,3 @@ TransactionHistory.propTypes = {
     transactions: PropTypes.object,
 };
 
-// повторно, у зв'язку з помилкою на githab
